@@ -19,6 +19,7 @@ Available at: https://www.researchgate.net/publication/408276947
 
 
 Citation
+
 Please cite this work appropriately when referencing concepts or frameworks developed within the Execution Economics Canon.
 
 Kekoh, N.N. (2026). The Execution Economics Canon: Understanding Why Projects Succeed, Fail, or Stall. VitroScript Working Paper Series, VS-WP-2026-001, Foundational Paper No. 1 (Version 1.0). Yaoundé, Cameroon: VitroScript. 
