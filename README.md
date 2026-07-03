@@ -1,75 +1,72 @@
-# execution-economics-canon
-Institutional Working Paper Series on Execution Failure, Funding Gaps, and Implementation Systems in Emerging Economies. Developed under the VitroScript research framework.
+# Execution Economics Canon  
+### VitroScript Working Paper Series  
 
-The Execution Economics Canon is an independent research programme developed under the VitroScript Working Paper Series. It advances conceptual and applied research on execution systems, institutional performance, development implementation, and investment readiness. 
-
-The Canon publishes working papers, policy frameworks, and analytical models intended to support researchers, policymakers, development practitioners, and institutional leaders working at the intersection of governance, capital deployment, and industrial transformation.
+*A research programme examining why systems fail to convert intent, capital, and policy into measurable outcomes.*
 
 
-Foundational Paper No. 1
-VS-WP-2026-001
-Version 1.0
+## Institutional Summary  
 
-First published: June 2026
+The Execution Economics Canon is an independent research programme developed under the VitroScript Working Paper Series by Dr. Nchinda Nelson Kekoh.
 
-Author: Dr. Nchinda Nelson Kekoh, PhD
-Institution: VitroScript
-
-Location: Yaoundé, Cameroon
-
-Available at: https://www.researchgate.net/publication/408276947
+It studies execution failure as a systemic institutional problem rather than a resource constraint, focusing on how decisions, investments, and policy intentions fail to translate into measurable outcomes.
 
 
-Citation
+## Core Framework  
 
-Please cite this work appropriately when referencing concepts or frameworks developed within the Execution Economics Canon.
+### Execution Architecture  
+How institutions fail to convert decisions into outcomes.
 
-Kekoh, N.N. (2026). The Execution Economics Canon: Understanding Why Projects Succeed, Fail, or Stall. VitroScript Working Paper Series, VS-WP-2026-001, Foundational Paper No. 1 (Version 1.0). Yaoundé, Cameroon: VitroScript. 
+### Value Architecture  
+How economies fail to retain and transform value.
 
-Available at: https://www.researchgate.net/publication/408276947
-
-Working papers may be updated as the research programme evolves. Readers are encouraged to check ResearchGate for the most current version.
-
-
-Road Map
-
-Current Publications
-
-The Execution Economics Canon: Understanding Why Projects Succeed, Fail, or Stall
-VS-WP-2026-001 | Foundational Paper No. 1 | Version 1.0 | July 2026
-In Development
+### Performance Architecture  
+How institutions fail to become investable and delivery-capable.
 
 
-Foundational Paper No. 2: 
+## Publications  
 
-Execution Architecture in Depth
-An extended examination of the No-Objection Paradox, the Ownership Illusion, and the Coordination Tax, with case material and preliminary measurement approaches.
+### Foundational Paper No. 1  
+VS-WP-2026-001  
+https://nchindnelsonkekoh.github.io/execution-economics-canon/papers/execution-economics-foundational-paper-1.pdf  
 
-
-Foundational Paper No. 3: 
-
-Value Architecture in Depth
-An extended examination of the Export Illusion, the Dependency Premium, and the Offtake Gap across agro-industrial and commodity export systems.
+ResearchGate:  
+https://www.researchgate.net/publication/408276947  
 
 
-Policy Brief Series: 
+## Canon Map  
 
-Execution Economics in Practice
-Concise evidence-based commentary applying Canon doctrines to current institutional and development challenges. Published regularly.
+Execution Architecture  
+- The No-Objection Paradox  
+- The Ownership Illusion  
+- The Coordination Tax  
+
+Value Architecture  
+- The Export Illusion  
+- The Dependency Premium  
+- The Offtake Gap  
+
+Performance Architecture  
+- The Feasibility Gap  
+- Capacity Before Capital  
+- The Execution Premium  
 
 
-The Execution Economics Assessment Tool
+## About VitroScript  
 
-A structured diagnostic instrument for assessing the presence and severity of Canon mechanisms within specific projects and institutions.
+VitroScript is the institutional advisory home of the Execution Economics Canon, focusing on institutional design, execution systems, and development effectiveness.
 
 
-Contact
+## Author  
 
-Email: nelsonkekoh@gmail.com
+Dr. Nchinda Nelson Kekoh, PhD  
+Founder, VitroScript  
+Lead Researcher, Execution Economics Canon  
 
-LinkedIn: https://www.linkedin.com/in/nchindanelsonkekoh
 
-ResearchGate: https://www.researchgate.net/profile/Nchinda-Kekoh
+## Contact  
+Email: nelsonkekoh@gmail.com  
+LinkedIn: https://www.linkedin.com/in/nchindanelsonkekoh  
+GitHub: https://github.com/NchindNelsonKekoh  
 
-Organisation: 
-VitroScript | Yaoundé, Cameroon
+
+© 2026 VitroScript
