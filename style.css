@@ -1,17 +1,3 @@
-/* ================================
-   EXECUTION ECONOMICS CANON
-   UNIFIED INSTITUTIONAL STYLE SYSTEM
-   VitroScript Working Paper Series
-================================ */
-:root {
-    --primary: #0b1f3a;
-    --accent: #c9a227;
-    --bg: #f5f7fb;
-    --card: #ffffff;
-    --text: #1a1a1a;
-    --muted: #6b7280;
-}
-/* ROOT VARIABLES */
 :root {
     --primary: #0b1f3a;
     --primary-light: #173a66;
@@ -22,9 +8,25 @@
     --muted: #6b7280;
     --border: #e5e7eb;
 }
+
+/* BASE RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Georgia", serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+}
+
+/* ================= NAV ================= */
 nav {
     background: var(--primary);
-    padding: 14px 0;
+    padding: 18px 10px;
     text-align: center;
     position: sticky;
     top: 0;
@@ -32,26 +34,26 @@ nav {
 }
 
 nav a {
-    color: white;
+    display: inline-block;
     margin: 0 18px;
     text-decoration: none;
-    font-size: 14px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-weight: 600;
 }
 
 nav a:hover {
     color: var(--accent);
 }
 
-/* Menu container */
+/* ================= MENU ================= */
 .menu {
     position: relative;
     display: inline-block;
 }
 
-/* Button */
 .menu-btn {
     background: transparent;
     border: 1px solid var(--accent);
@@ -62,7 +64,6 @@ nav a:hover {
     border-radius: 6px;
 }
 
-/* Dropdown */
 .dropdown {
     display: none;
     position: absolute;
@@ -87,101 +88,40 @@ nav a:hover {
     background: #f0f0f0;
 }
 
-/* Hover activation */
 .menu.open .dropdown {
     display: block;
 }
 
-/* BASE RESET */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* BODY */
-body {
-    font-family: "Georgia", serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.75;
-}
-
-/* ================================
-   NAVIGATION SYSTEM (INSTITUTIONAL)
-================================ */
-nav {
-    background: var(--primary);
-    padding: 18px 10px;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-/* CENTER NAV ITEMS PROPERLY */
-nav a {
-    display: inline-block;
-    margin: 0 18px;
-    text-decoration: none;
-    color: white;
-    font-size: 15px;   /* increased */
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-nav a:hover {
-    color: var(--accent);
-}
-/* ================================
-   LAYOUT SYSTEM
-================================ */
+/* ================= LAYOUT ================= */
 .container {
     max-width: 1050px;
     margin: auto;
     padding: 60px 25px;
 }
 
-
-.card, .box {
-    background: var(--card);
-    padding: 22px;
-    margin: 18px auto;
-    max-width: 750px;
-    border-radius: 10px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-    border-left: 4px solid var(--accent);
-}
-
+/* ================= HERO ================= */
 .hero {
-    background: linear-gradient(135deg, var(--primary), #173a66);
+    background: linear-gradient(135deg, var(--primary), var(--primary-light));
     color: white;
-    padding: 60px 40px;
-    border-radius: 14px;
-    margin-bottom: 40px;
-}
-/* ================================
-   HERO SYSTEM
-================================ */
-.hero {
-    background: linear-gradient(135deg, #0b1f3a, #173a66);
-    color: #ffffff;
     padding: 70px 45px;
     border-radius: 14px;
     margin-bottom: 40px;
 }
+
 .hero h1 {
     font-size: 44px;
-    font-weight: 700;
     margin-bottom: 10px;
-    color: #ffffff;
 }
 
-/* Make subtitle clearer */
+.hero p {
+    font-size: 16px;
+    opacity: 0.95;
+    color: #f5f7fb;
+}
+
 .hero .badge {
     background: rgba(255,255,255,0.15);
-    color: #ffffff;
+    color: white;
     padding: 5px 10px;
     border-radius: 6px;
     font-size: 12px;
@@ -189,18 +129,8 @@ nav a:hover {
     margin-bottom: 12px;
 }
 
-/* Ensure paragraph visibility */
-.hero p {
-    font-size: 16px;
-    opacity: 0.95;
-    color: #f5f7fb;
-}
-
-/* ================================
-   TYPOGRAPHY
-================================ */
+/* ================= TYPOGRAPHY ================= */
 h1 {
-    color: var(--primary);
     font-size: 34px;
     margin-bottom: 10px;
 }
@@ -213,28 +143,24 @@ h2 {
     padding-left: 10px;
 }
 
-/* ================================
-   CARDS SYSTEM
-================================ */
-.card {
+/* ================= CARDS ================= */
+.card, .box {
     background: var(--card);
     padding: 22px;
     margin: 18px 0;
     border-radius: 10px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.06);
-    border-left: 3px solid var(--accent);
+    border-left: 4px solid var(--accent);
 }
 
-/* GRID SYSTEM */
+/* ================= GRID ================= */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 18px;
 }
 
-/* ================================
-   CALLOUT / HIGHLIGHTS
-================================ */
+/* ================= CALLOUT ================= */
 .callout {
     background: var(--card);
     border-left: 4px solid var(--accent);
@@ -244,13 +170,7 @@ h2 {
     border-radius: 8px;
 }
 
-.highlight {
-    animation: glow 3.5s infinite;
-}
-
-/* ================================
-   BADGES / TAGS
-================================ */
+/* ================= BADGES ================= */
 .badge {
     display: inline-block;
     background: var(--primary);
@@ -258,24 +178,9 @@ h2 {
     padding: 5px 10px;
     font-size: 11px;
     border-radius: 4px;
-    margin-bottom: 10px;
-    letter-spacing: 0.5px;
 }
 
-/* ================================
-   QUOTES
-================================ */
-.quote {
-    font-style: italic;
-    color: #555;
-    padding: 15px;
-    border-left: 3px solid #ddd;
-    margin: 20px 0;
-}
-
-/* ================================
-   BUTTON SYSTEM
-================================ */
+/* ================= BUTTON ================= */
 .button {
     display: inline-block;
     background: var(--accent);
@@ -284,26 +189,20 @@ h2 {
     text-decoration: none;
     font-weight: bold;
     border-radius: 6px;
-    margin-top: 10px;
     transition: all 0.25s ease;
 }
 
 .button:hover {
     transform: translateY(-2px);
-    opacity: 0.95;
 }
 
-/* ================================
-   SECTION SPACING
-================================ */
+/* ================= SECTION ================= */
 .section {
     margin-top: 50px;
     scroll-margin-top: 80px;
 }
 
-/* ================================
-   FOOTER
-================================ */
+/* ================= FOOTER ================= */
 footer {
     text-align: center;
     padding: 40px;
@@ -311,65 +210,28 @@ footer {
     color: var(--muted);
 }
 
-/* ================================
-   ANIMATIONS
-================================ */
+/* ================= ANIMATIONS ================= */
 .fade-in {
     animation: fadeIn 0.9s ease-in-out;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(8px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-   
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
-/* GLOW EFFECT (for publications highlight) */
+/* GLOW */
+.highlight {
+    animation: glow 3.5s infinite;
+}
+
 @keyframes glow {
     0% { box-shadow: 0 0 0 rgba(201,162,39,0.0); }
     50% { box-shadow: 0 0 18px rgba(201,162,39,0.25); }
     100% { box-shadow: 0 0 0 rgba(201,162,39,0.0); }
 }
 
-/* SMOOTH SCROLL */
-html {
-    scroll-behavior: smooth;
-}
-
-h1 {
-    font-size: 34px;
-    color: var(--primary);
-    margin-bottom: 10px;
-}
-
-.box {
-    background: var(--card);
-    padding: 22px;
-    margin: 18px auto;
-    max-width: 650px;
-    border-radius: 10px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-    border-left: 4px solid var(--accent);
-}
-
-
-
-.box p {
-    font-size: 16px;
-    line-height: 1.8;
-    color: var(--text);
-}
-
-.container {
-    padding-top: 50px;
-}
+/* HEADER */
 .institution-header {
     background: var(--primary);
     color: white;
@@ -381,21 +243,15 @@ h1 {
 .brand-line {
     font-size: 20px;
     font-weight: 700;
-    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .sub-line {
     font-size: 13px;
     opacity: 0.85;
-    margin-top: 4px;
 }
 
 .tagline-line {
     font-size: 12px;
     opacity: 0.75;
-    margin-top: 6px;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
 }
