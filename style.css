@@ -287,6 +287,8 @@ footer {
         opacity: 1;
         transform: translateY(0);
     }
+
+   
 }
 
 /* GLOW EFFECT (for publications highlight) */
@@ -299,4 +301,30 @@ footer {
 /* SMOOTH SCROLL */
 html {
     scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 34px;
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.box {
+    background: var(--card);
+    padding: 22px;
+    margin: 18px auto;
+    max-width: 650px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    border-left: 4px solid var(--accent);
+}
+
+.box p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text);
+}
+
+.container {
+    padding-top: 50px;
 }
