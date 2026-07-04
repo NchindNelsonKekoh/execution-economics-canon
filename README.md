@@ -114,6 +114,11 @@ Foundational Paper No. 1 (VS-WP-2026-001)
 ## THE EXECUTION ECONOMICS CANON  
 ### Understanding Why Projects Succeed, Fail, or Stall  
 
+### Access the Publication
+ Full Working Paper (PDF):
+https://nchindnelsonkekoh.github.io/execution-economics-canon/papers/execution-economics-foundational-paper-1.pdf
+ ResearchGate Entry:
+https://www.researchgate.net/publication/408276947
 **Author:** Dr. Nchinda Nelson Kekoh, PhD  
 **Series:** VitroScript Working Paper Series  
 **Date:** June 2026  
