@@ -4,28 +4,28 @@
 > *A research programme examining why systems fail to convert intent, capital, and policy into measurable outcomes.*
 
 
-## 📌 Institutional Summary  
+##  Institutional Summary  
 
 The **Execution Economics Canon** is an independent research programme developed under the VitroScript Working Paper Series by **Dr. Nchinda Nelson Kekoh**.
 
-It studies **execution failure as a systemic institutional problem rather than a resource constraint**, focusing on how decisions, investments, and policy intentions fail to translate into measurable outcomes.
+It studies execution failure as a systemic institutional problem rather than a resource constraint, focusing on how decisions, investments, and policy intentions fail to translate into measurable outcomes.
 
 
-## 🧠 Core Framework  
+##  Core Framework  
 
-### 🔷 Execution Architecture  
+###  Execution Architecture  
 How institutions fail to convert decisions into outcomes.
 
-### 🔶 Value Architecture  
+###  Value Architecture  
 How economies fail to retain and transform value.
 
-### 🔷 Performance Architecture  
+###  Performance Architecture  
 How institutions fail to become investable and delivery-capable.
 
 
-## 📚 Publications  
+##  Publications  
 
-### 📄 Foundational Paper No. 1  
+###  Foundational Paper No. 1  
 **VS-WP-2026-001**
 
 🔗 PDF:  
@@ -35,7 +35,7 @@ https://nchindnelsonkekoh.github.io/execution-economics-canon/papers/execution-e
 https://www.researchgate.net/publication/408276947  
 
 
-## 🧭 Canon Map  
+##  Canon Map  
 
 ### Execution Architecture  
 - The No-Objection Paradox  
@@ -53,7 +53,7 @@ https://www.researchgate.net/publication/408276947
 - The Execution Premium  
 
 
-## 🏛 About VitroScript  
+##  About VitroScript  
 
 **VitroScript** is the institutional advisory home of the Execution Economics Canon.
 
@@ -71,7 +71,7 @@ Founder, VitroScript
 Lead Researcher, Execution Economics Canon  
 
 
-## 📡 Contact  
+##  Contact  
 
 - Email: nelsonkekoh@gmail.com  
 - LinkedIn: https://www.linkedin.com/in/nchindanelsonkekoh  
