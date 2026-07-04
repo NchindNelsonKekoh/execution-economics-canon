@@ -15,6 +15,60 @@
     --muted: #6b7280;
     --border: #e5e7eb;
 }
+nav {
+    background: var(--primary);
+    padding: 14px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Menu container */
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+/* Button */
+.menu-btn {
+    background: transparent;
+    border: 1px solid var(--accent);
+    color: white;
+    padding: 8px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/* Dropdown */
+.dropdown {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 200px;
+    top: 40px;
+    left: 0;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.dropdown a {
+    display: block;
+    padding: 12px;
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.dropdown a:hover {
+    background: #f0f0f0;
+}
+
+/* Hover activation */
+.menu:hover .dropdown {
+    display: block;
+}
 
 /* BASE RESET */
 * {
