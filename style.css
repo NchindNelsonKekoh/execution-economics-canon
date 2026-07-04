@@ -34,30 +34,30 @@ body {
 /* ================================
    NAVIGATION SYSTEM (INSTITUTIONAL)
 ================================ */
-.topnav {
+nav {
     background: var(--primary);
-    padding: 16px 10px;
+    padding: 18px 10px;
     text-align: center;
     position: sticky;
     top: 0;
     z-index: 1000;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
-.topnav a {
-    color: white;
-    margin: 0 16px;
+/* CENTER NAV ITEMS PROPERLY */
+nav a {
+    display: inline-block;
+    margin: 0 18px;
     text-decoration: none;
-    font-size: 12px;
-    letter-spacing: 1.2px;
+    color: white;
+    font-size: 15px;   /* increased */
+    font-weight: 600;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    transition: color 0.25s ease;
 }
 
-.topnav a:hover {
+nav a:hover {
     color: var(--accent);
 }
-
 /* ================================
    LAYOUT SYSTEM
 ================================ */
